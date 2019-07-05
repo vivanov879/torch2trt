@@ -48,6 +48,7 @@ Below are some usage examples, for more check out the [notebooks](notebooks).
 ```python
 from torch2trt import torch2trt
 from torchvision.models.alexnet import alexnet
+import torch
 
 # create some regular pytorch model...
 model = alexnet(pretrained=True).eval().cuda()
